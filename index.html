@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bitcoin Price</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h1 class="text-center mt-5">Bitcoin Price</h1>
+                    <div class="text-center">
+                        <label for="Devise">Choisi ta devise</label>
+                        <select id="Devise">
+                            <option value="EUR">Euro</option>
+                            <option value="USD">Dollar américain</option>
+                            <option value="GBP">Livre sterling</option>
+                            <option value="JPY">Yen</option>
+                            <option value="CZK">Couronne tchèque</option>
+                        </select>
+                    </div>
+                    <div id="price" class="text-center mt-3">
+                        <span id="price_label">xxxx.xx</span>
+                        <span id="price_symbol"> x </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
